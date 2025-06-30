@@ -8,7 +8,7 @@ import plotly.express as px
 df = pd.read_excel("Sustainable_Fashion_Raw_800.xlsx", sheet_name="Raw_Data")
 
 
-st.set_page_config(page_title="Sustainable Fashion HR Insights", layout="wide")
+st.set_page_config(page_title="Sustainable FashionInsights", layout="wide")
 
 st.title("🌿 Sustainable Fashion HR Dashboard")
 st.markdown("This dashboard provides micro and macro-level HR insights for stakeholders using behavioral and transactional data from a sustainable fashion business.")
