@@ -5,7 +5,8 @@ import seaborn as sns
 import plotly.express as px
 
 # Load data
-df = pd.read_excel("Sustainable Fashion Raw 800.xlsx", sheet_name="Raw_Data")
+df = pd.read_excel("Sustainable_Fashion_Raw_800.xlsx", sheet_name="Raw_Data")
+
 
 st.set_page_config(page_title="Sustainable Fashion HR Insights", layout="wide")
 
